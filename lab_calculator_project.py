@@ -25,11 +25,13 @@ def fmt_number(n: float) -> str:
 
 
 # Part 1: arithmetic functions
+# Use float to get a better range of values including decimals 
 def add(a: float, b: float) -> float:
+# returns the sum of two numbers 
     return a + b
 
-
 def subtract(a: float, b: float) -> float:
+    # Return the result of subtracting b from a
     return a - b
 
 
@@ -180,7 +182,7 @@ def main_menu():
 
         choice = input("Choose option number: ").strip()
         if choice == "12":
-            print("Bye.")
+            print("Thank you for using the calculator! Program closed successfully.")
             break
         elif choice in {"1", "2", "3", "4", "5", "6"}:
             op_map = {"1": "+", "2": "-", "3": "*", "4": "/", "5": "%", "6": "^"}
@@ -189,7 +191,7 @@ def main_menu():
             b = get_number_input("Enter second number (or ANS): ", allow_ans=True)
             result = perform_operation(op, a, b)
             if result is not None:
-                print(f"Result: {fmt_number(result)}")
+                print(f"Result: {fmt_number(result)} | Operations count: {operations_count}")
             update_history(a, op, b, result)
         elif choice == "7":  # sqrt
             a = get_number_input("Enter number for square root (or ANS): ", allow_ans=True)
@@ -228,3 +230,6 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+Description: A basic Python calculator that performs
+# addition, subtraction, multiplication, and division.
+# Created for demonstration of Git, Python, and VS Code integration
