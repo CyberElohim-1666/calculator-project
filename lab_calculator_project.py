@@ -27,6 +27,7 @@ def fmt_number(n: float) -> str:
 # Part 1: arithmetic functions
 # Use float to get a better range of values including decimals 
 def add(a: float, b: float) -> float:
+# returns the sum of two numbers 
     return a + b
 
 
