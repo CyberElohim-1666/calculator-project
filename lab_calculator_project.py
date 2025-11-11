@@ -229,3 +229,6 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+Description: A basic Python calculator that performs
+# addition, subtraction, multiplication, and division.
+# Created for demonstration of Git, Python, and VS Code integration
