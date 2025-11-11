@@ -189,7 +189,7 @@ def main_menu():
             b = get_number_input("Enter second number (or ANS): ", allow_ans=True)
             result = perform_operation(op, a, b)
             if result is not None:
-                print(f"Result: {fmt_number(result)}")
+                print(f"Result: {fmt_number(result)} | Operations count: {operations_count}")
             update_history(a, op, b, result)
         elif choice == "7":  # sqrt
             a = get_number_input("Enter number for square root (or ANS): ", allow_ans=True)
