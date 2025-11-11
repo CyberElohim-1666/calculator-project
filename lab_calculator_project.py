@@ -164,7 +164,7 @@ def perform_operation(op_symbol: str, a: float, b: Optional[float] = None) -> Op
 
 def main_menu():
     global last_result
-    print("bbbbbbbbcalclator")
+    print("lab calculator")
     while True:
         print("\nOptions:")
         print(" 1) Add (+)")
