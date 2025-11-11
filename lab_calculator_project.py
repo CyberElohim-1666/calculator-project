@@ -30,8 +30,8 @@ def add(a: float, b: float) -> float:
 # returns the sum of two numbers 
     return a + b
 
-
 def subtract(a: float, b: float) -> float:
+    # Return the result of subtracting b from a
     return a - b
 
 
