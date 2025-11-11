@@ -180,7 +180,7 @@ def main_menu():
 
         choice = input("Choose option number: ").strip()
         if choice == "12":
-            print("Bye.")
+            print("Thank you for using the calculator! Program closed successfully.")
             break
         elif choice in {"1", "2", "3", "4", "5", "6"}:
             op_map = {"1": "+", "2": "-", "3": "*", "4": "/", "5": "%", "6": "^"}
